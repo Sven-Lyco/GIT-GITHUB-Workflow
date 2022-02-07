@@ -48,7 +48,7 @@
 	- confirm merge
 	- delete branch
 
-## SECOND GIT WORKLOW
+## THIRD GIT WORKLOW
 - `git switch main` : switch to main-branch
 - `git pull` : pull your Github-Repository with your local
 - `git branch` : check your branches
