@@ -17,7 +17,7 @@
 ## FIRST GITHUB-WORKFLOW
 
 - Add Reporsitory on GITHUB
-  - reporsitory-name = local-folder-name (social-card)
+  - reporsitory-name = local-folder-name
   - Next Page: Quicksetup
   - choose SSH
   - copy and paste link for push in Terminal: `git remote add origin git@github.com:USERNAME/REPORSITORY.git`
@@ -30,7 +30,7 @@
   - you will get a message like this: `git push --set-upstream origin main`
   - copy, paste, enter
 
-- Now check if the repository is on Github
+- Now check if the repository is on Github, by refreshing the page of the repository
 
 - `git branch readme` : edit README.md and create a new branch
 - `git branch` : # check branch
