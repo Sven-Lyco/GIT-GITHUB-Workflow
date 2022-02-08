@@ -6,7 +6,7 @@
 
 ## FIRST GIT WORKLOW
 
-- `cd <fodlername>` : navigate to where you want to make a new folder
+- `cd <foldername>` : navigate to where you want to make a new folder
 - `take <foldername>` : create a new folder and navigate in it (`take` is a combi of `mkdir` and `cd`)
 - `mkdir <foldername>`: create new folders you need
 - `touch <filename>` : create new files you need
