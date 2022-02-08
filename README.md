@@ -64,6 +64,8 @@
 - `git branch -d readme` : delete feature branch
 - `git branch` : Check branch again
 
+---
+
 ### GIT-COMMANDS
 
 - `git init` : initialize git
