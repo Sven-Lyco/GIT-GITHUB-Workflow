@@ -14,25 +14,28 @@
 - `git init` : initiate git in your first created folder, when all files and folders are created
 - `touch .gitignore` : create a `.gitignore` - file
 - `ls -la` : look for hidden files, you dont want to uplaod to Git / Github
-- `echo '.DS_Store' >> .gitignore`: write filenames in `.gitignore`
-- `git add .` : add everything to the Stage
-- `git commit -m "Initial commit"` : initial commit
+- `echo '.DS_Store' >> .gitignore`: write filenames and folders in `.gitignore`
+- `git add -A` : add everything to the Stage (Stage is a pool for commits)
+- `git commit -m "initial commit"` : initial commit
 
 ## FIRST GITHUB-WORKFLOW
 
-- Add Repository on GITHUB
+- Create a new Repository on GITHUB
   - repository-name = local-folder-name
-  - next Page: Quicksetup
+  - choose public or private
+  - **don't** initialize this repository
+- next Page: Quicksetup
   - choose SSH
-  - copy and paste link for push in Terminal: `git remote add origin git@github.com:USERNAME/REPOSITORY.git`
+  - copy and paste first link for **push** in Terminal: `git remote add origin git@github.com:USERNAME/REPOSITORY.git`
     - press Enter
 
 ## SECOND GIT WORKLOW
 
-- `git push`: push the local repository to remote
+- `git push -u origin main` **OR**
 
-  - you will get a message like this: `git push --set-upstream origin main`
-  - copy, paste, enter
+  - `git push`: push the local repository to remote
+    - you will get a message like this: `git push --set-upstream origin main`
+    - copy, paste, enter
 
 - now check if the repository is on Github, by refreshing the page of the repository
 
