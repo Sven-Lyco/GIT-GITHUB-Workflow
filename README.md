@@ -6,7 +6,12 @@
 
 ## FIRST GIT WORKLOW
 
-- `cd <fodlername>` : navigate to where you want to make a new folder
+### On your local machine
+
+- `cd <foldername>` : navigate to where you want to make a new folder
+
+#### REMEMBER: It is really important to already be in the project folder
+
 - `take <foldername>` : create a new folder and navigate in it (`take` is a combi of `mkdir` and `cd`)
 - `mkdir <foldername>`: create new folders you need
 - `touch <filename>` : create new files you need
@@ -14,25 +19,32 @@
 - `git init` : initiate git in your first created folder, when all files and folders are created
 - `touch .gitignore` : create a `.gitignore` - file
 - `ls -la` : look for hidden files, you dont want to uplaod to Git / Github
-- `echo '.DS_Store' >> .gitignore`: write filenames in `.gitignore`
-- `git add .` : add everything to the Stage
-- `git commit -m "Initial commit"` : initial commit
+- `echo '.DS_Store' >> .gitignore`: write filenames and folders in `.gitignore`
+- `git add -A` : add everything to the Stage (Stage is a pool for commits)
+- `git commit -m "Initial commit"` : Initial commit (Commit messages should start with a capital letter)
 
 ## FIRST GITHUB-WORKFLOW
 
-- Add Repository on GITHUB
+### On your web browser
+
+- Create a new Repository on GITHUB (https://github.com/)
   - repository-name = local-folder-name
-  - next Page: Quicksetup
+  - choose public or private (public is recommended)
+  - **don't** initialize this repository with a readme or gitignore
+- next Page: Quicksetup
   - choose SSH
-  - copy and paste link for push in Terminal: `git remote add origin git@github.com:USERNAME/REPOSITORY.git`
+  - copy and paste first link in Terminal (to connect your local repository with your remote repository): `git remote add origin git@github.com:USERNAME/REPOSITORY.git`
     - press Enter
 
 ## SECOND GIT WORKLOW
 
-- `git push`: push the local repository to remote
+### On your local machine
 
-  - you will get a message like this: `git push --set-upstream origin main`
-  - copy, paste, enter
+- `git push -u origin main` **OR**
+
+  - `git push`: push the local repository to remote
+    - you will get a message like this: `git push --set-upstream origin main`
+    - copy, paste, enter
 
 - now check if the repository is on Github, by refreshing the page of the repository
 
@@ -49,6 +61,8 @@
 
 ## SECOND GITHUB-WORKFLOW
 
+### On your web browser
+
 - go in to the repository
   - compare & pull request
   - leave a comment and create pull request
@@ -58,6 +72,8 @@
 
 ## THIRD GIT WORKLOW
 
+### On your local machine
+
 - `git switch main` : switch to main-branch
 - `git pull` : pull your Github-Repository with your local
 - `git branch` : check your branches
@@ -66,7 +82,7 @@
 
 ---
 
-### GIT-COMMANDS
+### GIT-COMMANDS for Terminal
 
 - `git init` : initialize git
 - `git add .` : add all files contents to the stage
