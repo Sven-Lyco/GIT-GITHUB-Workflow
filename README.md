@@ -92,11 +92,15 @@
 - `git commit --amend -m “(new_name)”` : rename last commit
 - `git branch <branchename>`: add new branch
 - `git switch <branchname>` : switch to specific branch
+- `git switch -c <branchname>` : add a new brnach and switch to specific branch
 - `git branch -d <branchname>` : delete branch
 - `git remote add origin <github-link>` : add github connection to local host
 - `git remote` : shows repository
 - `git push -u origin <branchname>` : push specific branch to github
 - `git pull` : pull updates from github
+
+- `git pull --rebase` : If you pull remote changes with the flag `--rebase`, then your local changes are reapplied on top of the remote changes. After that you can use `git push`
+
 
 #### Overview commands
 
