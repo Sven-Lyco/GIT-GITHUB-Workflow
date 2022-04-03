@@ -109,3 +109,6 @@
 - `git log` : displays all commits
 - `git log --oneline` or `glo` : displays commits in shorter
 - `git log --graph` : displays graph with all branches
+
+#### [Undo a commit & redo](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git)
+
